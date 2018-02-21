@@ -1,0 +1,6 @@
+C:\Development\CalculatorRefresh\CalculatorRefresh\bin\Debug\CalculatorRefresh.exe.config
+C:\Development\CalculatorRefresh\CalculatorRefresh\obj\Debug\CalculatorRefresh.csprojResolveAssemblyReference.cache
+C:\Development\CalculatorRefresh\CalculatorRefresh\bin\Debug\CalculatorRefresh.exe
+C:\Development\CalculatorRefresh\CalculatorRefresh\bin\Debug\CalculatorRefresh.pdb
+C:\Development\CalculatorRefresh\CalculatorRefresh\obj\Debug\CalculatorRefresh.exe
+C:\Development\CalculatorRefresh\CalculatorRefresh\obj\Debug\CalculatorRefresh.pdb
