@@ -12,29 +12,35 @@ namespace CalculatorRefresh
         {
             Console.WriteLine("Welcome To My Calculator");
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-            Console.WriteLine("Please enter an operator");
+            Console.WriteLine("Please enter an Operator");
             Console.WriteLine("[+] [-] [*] [/]");
-            string userValue = Console.ReadLine();
-            int a, b;
-            
-            Console.WriteLine("Enter a number");
-            a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Enter second number");
-            b = int.Parse(Console.ReadLine());
+            string Operator = Console.ReadLine();
 
-            int answer = 0;
+            Console.Write("How many numbers do you want to " + Operator + "? ");
+            int count = int.Parse(Console.ReadLine());
 
-            if (userValue == "+")
-                answer = a + b;
+            int[] numbers = new int[count];
+            for (int i = 0; i < count; i++)
+            {
+                Console.Write("Enter a number" + (i + 1) + ": ");
+                numbers[i] = int.Parse(Console.ReadLine());
+            }
 
-            else if (userValue == "-")
-                answer = a - b;
+            int answer = numbers [0];
 
-            else if (userValue == "*")
-                answer = a * b;
+            for (int i = 1; i < count; i++)
 
-            else if (userValue == "/")
-                answer = a / b;
+                if (Operator == "+")
+                    answer = answer + numbers[i];
+
+                else if (Operator == "-")
+                    answer = answer - numbers[i];
+
+                else if (Operator == "*")
+                    answer = answer * numbers[i];
+
+                else if (Operator == "/")
+                    answer = answer / numbers[i];
             
             
           
